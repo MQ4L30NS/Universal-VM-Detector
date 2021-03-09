@@ -9,9 +9,6 @@ on:
 jobs:
 
   build:
-
-    strategy:
-      matrix:
     runs-on: windows-2019
     env:
       CSC: "C:/Windows/Microsoft.NET/Framework/v2.0.50727/csc.exe"            
