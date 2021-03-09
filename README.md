@@ -70,7 +70,6 @@ PortType                    : 31
 
 ## Codes
 Based upon these tests, I have made an tiny program which can detect windows VMs.
-You can (read code)[Universal_VM_Detector.cs#L11] or get (compiled executable)[actions]
-
+You can [read code](Universal_VM_Detector.cs#L11) or get [compiled executable](actions).
 
 
