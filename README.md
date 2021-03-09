@@ -10,14 +10,14 @@ Most common is to search and match values from win32. But this method is static 
 
 ## Background
 I worked on it for many months. I done many tests upon which I observed that:
-**win32_portconnector** always null and empty on VMs. Please see report
+**win32_portconnector** always null and empty on VMs. Please see full report
 ```
 //asked at: https://stackoverflow.com/q/64846900/14919621
 what **win32_portconnector** is used for ? This question have 3 parts.
-1) What is the use case of **[win32_portconnector][1]** ?
+1) What is the use case of **[win32_portconnector][1]** ?                           [1]: https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-portconnector
 2) **Can I get state of ports** using it like Mouse cable, charger, HDMI cables etc ?
 3) Why **VM** have null results on this query :**Get-WmiObject Win32_PortConnector** ?
-
+```
 **On VM:**
 ```ps
 PS C:\Users\Administrator> Get-WmiObject Win32_PortConnector
@@ -67,10 +67,10 @@ SerialNumber                :
 ExternalReferenceDesignator :
 PortType                    : 31
 ``` 
-  [1]: https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-portconnector
 
-```
-
+## Codes
+Based upon these tests, I have made an tiny program which can detect windows VMs.
+You can (read code)[Universal_VM_Detector.cs#L11] or get (compiled executable)[actions]
 
 
 
