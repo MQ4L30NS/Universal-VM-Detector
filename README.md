@@ -1,5 +1,3 @@
-Under construction...
-
 # Universal VM Detector
 Detect every windows virtual machine with just 1 line of code
 
@@ -70,6 +68,14 @@ PortType                    : 31
 
 ## Codes
 Based upon these tests, I have made an tiny program which can detect windows VMs.
-You can [read code](Universal_VM_Detector.cs#L11) or get [compiled executable](actions).
+You can [read code](Universal_VM_Detector.cs#L11) or get [compiled executable](https://github.com/Back-X/Universal-VM-Detector/actions).
 
-
+## Stability
+It is tested on many environments and is very stable.
+- Detects Visrtualbox 
+- Detects Vmware 
+- Detects Windows Server 
+- Detects RDP 
+- Detects Virustotal 
+- Detects [any.run](https://app.any.run/tasks/874cd411-5996-4e93-83d8-fdc72e95215a) 
+etc...
