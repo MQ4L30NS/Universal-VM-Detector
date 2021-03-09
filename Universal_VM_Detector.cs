@@ -8,7 +8,7 @@ public class Universal_VM_Detector
 {
 	static void Main()
 	{
-		bool IsVM = (new System.Management.ManagementObjectSearcher("SELECT * FROM Win32_PortConnector")).Get().Count < 0;
+		bool IsVM = (new System.Management.ManagementObjectSearcher("SELECT * FROM Win32_PortConnector")).Get().Count == 0;
 		MessageBox.Show
 		(
 		    "You are using " + (IsVM ? "Virtual" : "Real") + " Environment", 
