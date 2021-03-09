@@ -1,0 +1,30 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    strategy:
+      matrix:
+    runs-on: windows-2019
+    env:
+      CSC: "C:/Windows/Microsoft.NET/Framework/v2.0.50727/csc.exe"            
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Compile
+      run: CSC -target:winexe -optimize+ Universal_VM_Detector.cs
+      
+    - name: Upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: MSIX Package
+        path: Universal_VM_Detector.exe
