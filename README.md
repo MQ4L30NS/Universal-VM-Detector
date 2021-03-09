@@ -1,5 +1,16 @@
-# Universal VM Detector
-Detect every windows virtual machine with just 1 line of code
+
+
+
+ <p align=center>
+<h1 align=center>Universal VM Detector</h1><p align=center>
+Detect every windows virtual machine with just 1 line of code</p>
+<p align=center>  
+<a href=https://discord.gg/Hu5XPGMTuk><img src="https://img.shields.io/discord/787203724975931413?style=for-the-badge&label=discord" /></a>
+<img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge" >
+<a href=LICENSE><img src="https://img.shields.io/github/license/Back-X/Universal-VM-Detector?style=for-the-badge" ></a>
+<img src="https://img.shields.io/github/stars/Back-X/Universal-VM-Detector?style=for-the-badge">  
+<img src="https://img.shields.io/github/forks/Back-X/Universal-VM-Detector?style=for-the-badge">
+</p>  
 
 ## Why we need universal way ?
 Malware are now more clever than before. Before running, they check whether environment is virtual or real. 
@@ -79,3 +90,11 @@ It is tested on many environments and is very stable.
 - Detects Virustotal 
 - Detects [any.run](https://app.any.run/tasks/874cd411-5996-4e93-83d8-fdc72e95215a) 
 etc...
+
+
+## Contact
+- Facebook: **[gray.programmerz.5](https://fb.com/messages/t/gray.programmerz.5)**
+- Email: **[hackrefisher@gmail.com](mailto:hackrefisher@gmail.com)**
+- Website: **[tiplava](http://tiplava.blogspot.com)**
+- Discord: **[Fishes](https://discord.gg/Hu5XPGMTuk)**
+# I Love ALLAH + Holy Prophet + Islam and Pakistan.
